@@ -1,0 +1,99 @@
+{
+  "version": 0.3,
+  "updated_at": "2025-12-13",
+  "global_types": {
+    "location": "Локация",
+    "object": "Предмет",
+    "action": "Действие"
+  },
+  "groups": [
+    {
+      "id": "locations",
+      "title": "Локации",
+      "icon": "map.fill",
+      "default_enabled": true,
+      "words": [
+        {"text": "Пляж", "type": "location"},
+        {"text": "Банк", "type": "location"},
+        {"text": "Космос", "type": "location"},
+        {"text": "Подводная лодка", "type": "location"},
+        {"text": "Полицейский участок", "type": "location"},
+        {"text": "Церковь", "type": "location"},
+        {"text": "Стриптиз-клуб", "type": "location", "isAdult": true},
+        {"text": "Секс-шоп", "type": "location", "isAdult": true},
+        {"text": "Нудистский пляж", "type": "location", "isAdult": true},
+        {"text": "Квартал красных фонарей", "type": "location", "isAdult": true},
+        {"text": "Отель на час", "type": "location", "isAdult": true},
+        {"text": "Баня с девочками", "type": "location", "isAdult": true}
+      ]
+    },
+    {
+      "id": "cities",
+      "title": "Города",
+      "icon": "house.fill",
+      "default_enabled": false,
+      "words": [
+        {"text": "Москва", "type": "location"},
+        {"text": "Париж", "type": "location"},
+        {"text": "Токио", "type": "location"},
+        {"text": "Нью-Йорк", "type": "location"},
+        {"text": "Амстердам", "type": "location", "isAdult": true}, 
+        {"text": "Бангкок", "type": "location", "isAdult": true}
+      ]
+    },
+    {
+      "id": "body_parts",
+      "title": "Тело и Анатомия",
+      "icon": "figure.stand",
+      "default_enabled": false,
+      "words": [
+        {"text": "Сердце", "type": "object"},
+        {"text": "Мозг", "type": "object"},
+        {"text": "Рука", "type": "object"},
+        {"text": "Глаз", "type": "object"},
+        {"text": "Колено", "type": "object"},
+        {"text": "Пенис", "type": "object", "isAdult": true},
+        {"text": "Вагина", "type": "object", "isAdult": true},
+        {"text": "Грудь (женская)", "type": "object", "isAdult": true},
+        {"text": "Ягодицы", "type": "object", "isAdult": true},
+        {"text": "Точка G", "type": "location", "isAdult": true}
+      ]
+    },
+    {
+      "id": "objects",
+      "title": "Вещи и Предметы",
+      "icon": "cube.box.fill",
+      "default_enabled": true,
+      "words": [
+        {"text": "Смартфон", "type": "object"},
+        {"text": "Гитара", "type": "object"},
+        {"text": "Зубная щетка", "type": "object"},
+        {"text": "Пистолет", "type": "object"},
+        {"text": "Презерватив", "type": "object", "isAdult": true},
+        {"text": "Вибратор", "type": "object", "isAdult": true},
+        {"text": "Наручники", "type": "object", "isAdult": true},
+        {"text": "Плетка", "type": "object", "isAdult": true},
+        {"text": "Резиновая кукла", "type": "object", "isAdult": true},
+        {"text": "Смазка", "type": "object", "isAdult": true}
+      ]
+    },
+    {
+      "id": "actions",
+      "title": "Действия и События",
+      "icon": "flame.fill",
+      "default_enabled": true,
+      "words": [
+        {"text": "Свадьба", "type": "action"},
+        {"text": "Рыбалка", "type": "action"},
+        {"text": "Ограбление", "type": "action"},
+        {"text": "Экзамен", "type": "action"},
+        {"text": "Секс", "type": "action", "isAdult": true},
+        {"text": "Оргазм", "type": "action", "isAdult": true},
+        {"text": "Мастурбация", "type": "action", "isAdult": true},
+        {"text": "Минет", "type": "action", "isAdult": true},
+        {"text": "Свингер-пати", "type": "action", "isAdult": true},
+        {"text": "Первая брачная ночь", "type": "action", "isAdult": true}
+      ]
+    }
+  ]
+}
